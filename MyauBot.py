@@ -19,10 +19,10 @@ except ImportError:
 # --- КОНФИГУРАЦИЯ ---
 # На GitHub мы не пишем токен напрямую!
 # Создай файл .env в этой же папке и напиши там: BOT_TOKEN=твой_токен
-BOT_TOKEN = os.getenv("BOT_TOKEN") or "8748623574:AAGMkdJ7Gj8IxVcca81zm5_At-ejbq12Ehc"
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "твой_токен"
 
 # Ссылка на твой развернутый React-интерфейс (Vercel/Netlify)
-WEB_APP_URL = os.getenv("WEB_APP_URL") or "https://твой-сайт-на-vercel.app"
+WEB_APP_URL = os.getenv("WEB_APP_URL") or "https://github.com/KoteykaMayer/myau-photo-pro-bot"
 
 # Настройка логирования
 logging.basicConfig(
